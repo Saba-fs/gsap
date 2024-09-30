@@ -1,0 +1,104 @@
+/* nav bar */
+section{
+    height: 70px;
+}
+
+
+section h1{
+    color: rgb(22, 21, 21);
+    margin-left:4%;
+    margin-top: 0%;
+}
+
+.nav ul{
+    display: flex;
+    margin-left: 70%; 
+}
+
+.nav li{
+
+margin-left: 30px;
+margin-top: -10%;
+
+}
+.nav a:hover{
+    text-decoration: underline;
+    text-shadow: 2px 4px 8px blueviolet;
+    font-size: 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+   transition: 0.5s;
+}
+/* header */
+
+
+
+/* products */
+
+.pro{
+    background-color: whitesmoke;
+    margin-top: 30px;
+    
+}
+.pro h2{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.col1{
+    display: flex;
+    text-align: center;
+}
+.col p{
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+/* phone */
+
+.pho{
+    font-family: "Oswald", sans-serif;
+    margin-top: 5%;
+  
+}
+
+.pho h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.pho1{
+    display: flex;
+    margin-top: 3%;
+    gap: 30px;
+}
+.pho1 p{
+    margin-left: 20%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+/* products 2 */
+
+.pro{
+    font-family: "Oswald", sans-serif;
+    margin-top: 5%;
+}
+.pro h1{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.pro3{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.pro2 img{
+    border-radius: 10%;
+}
+.pro2 p{
+    text-align: center;
+}
